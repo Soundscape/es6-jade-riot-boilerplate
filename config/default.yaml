@@ -1,0 +1,17 @@
+paths:
+  source: './src'
+  output: './output'
+  build: './build'
+  
+  scripts:
+    js: '**/*.js'
+    tag: '**/*.tag'
+    main: 'app'
+  
+  markup:
+    jade: '**/*.jade'
+    html: '**/*.html'
+  
+  styles:
+    scss: '**/*.scss'
+    css: '**/*.css'
