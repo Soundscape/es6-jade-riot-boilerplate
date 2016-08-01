@@ -2,6 +2,9 @@
   "jspm": {
     "dependencies": {
       "riot": "npm:riot@^2.5.0",
+      "riotcontrol": "npm:riotcontrol@^0.0.3",
+      "stomp-websocket": "github:jmesnil/stomp-websocket@^2.3.4",
+      "sublime-core": "npm:sublime-core@^0.0.29",
       "tag": "npm:systemjs-riot@^1.4.2"
     },
     "devDependencies": {
@@ -12,8 +15,7 @@
   },
   "devDependencies": {
     "babel-core": "^6.11.4",
-    "babel-plugin-external-helpers-2": "^6.3.13",
-    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2015-riot": "^1.1.0",
     "browser-sync": "^2.13.0",
     "config": "^1.21.0",
     "gulp": "^3.9.1",
@@ -24,6 +26,7 @@
     "gulp-minify-html": "^1.0.6",
     "gulp-rename": "^1.2.2",
     "gulp-rimraf": "^0.2.0",
+    "gulp-riot": "^0.5.2",
     "gulp-sass": "^2.3.2",
     "gulp-sequence": "^0.4.5",
     "gulp-uglify": "^1.5.4",

@@ -11,5 +11,5 @@ import './gulp/scripts';
 import './gulp/sync.js';
 
 gulp.task('build', ['minify-html', 'minify-css', 'bundle-js']);
-              
+
 gulp.task('default', sequence('build', 'serve'));

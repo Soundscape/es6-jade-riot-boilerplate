@@ -18,6 +18,9 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@1.2.7",
     "riot": "npm:riot@2.5.0",
+    "riotcontrol": "npm:riotcontrol@0.0.3",
+    "stomp-websocket": "github:jmesnil/stomp-websocket@2.3.4",
+    "sublime-core": "npm:sublime-core@0.0.29",
     "tag": "npm:systemjs-riot@1.4.2",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
@@ -382,6 +385,9 @@ System.config({
       "inherits": "npm:inherits@2.0.1",
       "minimalistic-assert": "npm:minimalistic-assert@1.0.0"
     },
+    "npm:detect-node@2.0.3": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
     "npm:diffie-hellman@5.0.2": {
       "bn.js": "npm:bn.js@4.11.5",
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
@@ -412,6 +418,10 @@ System.config({
     },
     "npm:expand-range@1.8.2": {
       "fill-range": "npm:fill-range@2.2.3"
+    },
+    "npm:extend-error@0.0.2": {
+      "assert": "github:jspm/nodelibs-assert@0.1.0",
+      "util": "github:jspm/nodelibs-util@0.1.0"
     },
     "npm:extglob@0.3.2": {
       "is-extglob": "npm:is-extglob@1.0.0"
@@ -661,6 +671,13 @@ System.config({
     "npm:levn@0.3.0": {
       "prelude-ls": "npm:prelude-ls@1.1.2",
       "type-check": "npm:type-check@0.3.2"
+    },
+    "npm:lodash@3.10.1": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:logdown@1.2.8": {
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "systemjs-json": "github:systemjs/plugin-json@0.1.2"
     },
     "npm:micromatch@2.3.11": {
       "arr-diff": "npm:arr-diff@2.0.0",
@@ -1089,6 +1106,24 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "systemjs-json": "github:systemjs/plugin-json@0.1.2"
     },
+    "npm:sublime-core@0.0.29": {
+      "detect-node": "npm:detect-node@2.0.3",
+      "events": "github:jspm/nodelibs-events@0.1.1",
+      "intravenous": "npm:intravenous@0.1.4-beta",
+      "lodash": "npm:lodash@3.10.1",
+      "logdown": "npm:logdown@1.2.8",
+      "path": "github:jspm/nodelibs-path@0.1.0",
+      "portable-uuid": "npm:portable-uuid@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "property.js": "npm:property.js@0.0.2",
+      "stately.js": "npm:stately.js@1.3.0",
+      "sublime-error": "npm:sublime-error@0.0.47",
+      "when": "npm:when@3.7.7"
+    },
+    "npm:sublime-error@0.0.47": {
+      "extend-error": "npm:extend-error@0.0.2",
+      "path": "github:jspm/nodelibs-path@0.1.0"
+    },
     "npm:supports-color@2.0.0": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
@@ -1171,6 +1206,9 @@ System.config({
     },
     "npm:vm-browserify@0.0.4": {
       "indexof": "npm:indexof@0.0.1"
+    },
+    "npm:when@3.7.7": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:wide-align@1.1.0": {
       "string-width": "npm:string-width@1.0.1"
