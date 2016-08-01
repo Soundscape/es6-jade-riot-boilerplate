@@ -5,8 +5,6 @@ import RiotControl from 'riotcontrol';
 import './components/welcome';
 import './components/todo';
 
-window.RiotControl = RiotControl;
-
 let store = new AppStore();
 RiotControl.addStore(store);
 
@@ -38,6 +36,11 @@ window.q = broker;
 
 
 riot.mount('welcome', { title: 'Hello Riot!' });
+riot.mount('rg-alerts', {
+  alerts: [
+    { type: 'primary', text: 'Lorem ipsum dolor sit amet ... ' }
+  ]
+});
 
 let routeHandler = (a,b,c,d,e) => console.log('ROUTE', a,b,c,d,e);
 riot.route(routeHandler);

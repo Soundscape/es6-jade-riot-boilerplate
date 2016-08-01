@@ -15,6 +15,8 @@ todo
         
   script.
     import riot from 'riot';
+    import RiotControl from 'riotcontrol';
+    
     this.disabled = true
     this.items = []
     
@@ -28,11 +30,10 @@ todo
     })
     
     edit(e) {
-      self.text = e.target.value;
+      this.text = e.target.value;
     }
     
     add(e) {
-      debugger;
       if (this.text) {
         RiotControl.trigger('item_add', { title: this.text });
         this.text = this.input.value = '';

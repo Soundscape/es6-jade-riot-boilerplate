@@ -32,5 +32,6 @@
     "gulp-uglify": "^1.5.4",
     "gulp-util": "^3.0.7",
     "js-yaml": "^3.6.1"
-  }
+  },
+  "dependencies": {}
 }
